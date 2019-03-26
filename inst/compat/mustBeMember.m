@@ -14,7 +14,7 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {Function File} {} mustBeFinite (x, valid, label)
+## @deftypefn {Function File} {@code{x} =} mustBeMember (@code{x}, @code{valid}, @code{label})
 ##
 ## Requires that input is a member of a set of given valid values.
 ##
@@ -25,7 +25,7 @@
 ## chars and cellstrs when calling ismember() on them. But it will probably
 ## "do what you mean" if you just use it naturally.
 ##
-## @code{label} is an optional input that describes how the input will be described in
+## @code{label} is an optional input that determines how the input will be described in
 ## error messages. If not supplied, @code{inputname (1)} is used, and if that is
 ## empty, it falls back to "input".
 ##

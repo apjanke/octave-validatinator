@@ -14,7 +14,7 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {Function File} {} mustBeCellstr (x, label)
+## @deftypefn {Function File} {@code{x} =} mustBeCellstr (@code{x}, @code{label})
 ##
 ## Requires that input is a cellstr.
 ##

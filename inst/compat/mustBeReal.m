@@ -14,14 +14,14 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {Function File} {} mustBeReal (x, label)
+## @deftypefn {Function File} {@code{x} =} mustBeReal (@code{x}, @code{label})
 ##
 ## Requires that input is finite.
 ##
 ## Raises an error if the input @code{x} is not real, as determined by
 ## @code{isreal (x)}.
 ##
-## @code{label} is an optional input that describes how the input will be described in
+## @code{label} is an optional input that determines how the input will be described in
 ## error messages. If not supplied, @code{inputname (1)} is used, and if that is
 ## empty, it falls back to "input".
 ##

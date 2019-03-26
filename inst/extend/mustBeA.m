@@ -14,14 +14,14 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {Function File} {} mustBeA (x, type, label)
+## @deftypefn {Function File} {@code{x} =} mustBeA (@code{x}, @code{type}, @code{label})
 ##
 ## Requires that input is of a given type.
 ##
 ## Raises an error if the input @code{x} is not of the specified @code{type}
 ## or a subclass, as determined by @code{isa (x, type)}.
 ##
-## @code{label} is an optional input that describes how the input will be described in
+## @code{label} is an optional input that determines how the input will be described in
 ## error messages. If not supplied, @code{inputname (1)} is used, and if that is
 ## empty, it falls back to "input".
 ##

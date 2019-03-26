@@ -14,7 +14,7 @@
 ## along with this program; If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {Function File} {} mustBeSameSize (a, b, labelA, labelB)
+## @deftypefn {Function File} {[@code{a}, @code{b}] =} mustBeSameSize (@code{a}, @code{b}, @code{labelA}, @code{labelB})
 ##
 ## Requires that the inputs are the same size.
 ##
