@@ -20,7 +20,9 @@
 ##
 ## Raises an error if the input @code{x} is not a row vector of @code{char}s.
 ## @code{char} row vectors are Octave's normal representation of single strings.
-## (They are what are produced by @code{'...'} string literals.)
+## (They are what are produced by @code{'...'} string literals.) As a special
+## case, 0-by-0 empty chars (what is produced by the string literal @code{''})
+## are also considered charvecs.
 ##
 ## This does not differentiate between single-quoted and double-quoted strings.
 ##
@@ -32,7 +34,7 @@
 
 function mustBeCharvec (x, label)
   if nargin < 2; label = []; endif
-  if ! (ischar (x) && isrow (x))
+  if ! (ischar (x) && (isrow (x) || isequal (size (x), [0 0])))
     if isempty (label)
       label = inputname (1);
     endif
