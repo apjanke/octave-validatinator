@@ -1,3 +1,3 @@
-this_dir = mfilename ("fullpath");
+this_dir = fileparts (mfilename ("fullpath"));
 rmpath (fullfile (this_dir, "compat"));
 rmpath (fullfile (this_dir, "extend"));
