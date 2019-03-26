@@ -37,6 +37,6 @@ function x = mustBeScalar (x, label)
       label = "input";
     endif
     error ("%s must be scalar; got a %s", ...
-      label, size2str (size (x));
+      label, size2str (size (x)));
   endif
 endfunction
