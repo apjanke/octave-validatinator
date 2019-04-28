@@ -24,7 +24,7 @@ Community
 All project interaction takes place on GitHub. The project community is essentially
 the original author (Andrew Janke) at the moment, and that probably won't change.
 
-The GitHub home for this project is https://github.com/apjanke/octave-packajoozle.
+The GitHub home for this project is https://github.com/apjanke/octave-validatinator.
 
 Advanced
 --------

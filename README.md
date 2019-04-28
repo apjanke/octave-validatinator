@@ -1,4 +1,4 @@
-Validatentine for GNU Octave
+Validatinator for GNU Octave
 ============================
 
 Validation functions for GNU Octave.

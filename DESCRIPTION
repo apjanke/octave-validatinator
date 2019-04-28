@@ -1,10 +1,10 @@
-Name: packajoozle
+Name: validatinator
 Version: 0.0.0+
-Date: 2019-03-25
-Title: Packajoozle - Enhanced package manager for GNU Octave
+Date: 2019-04-28
+Title: Validatinator - Input validation functions for GNU Octave
 Author: Andrew Janke <floss@apjanke.net>
 Maintainer: Andrew Janke <floss@apjanke.net>
-Description: Enhanced replacement for pkj
-Categories: package-management
-Url: https://github.com/apjanke/octave-packajoozle
+Description: Matlab-compatible input validation functions
+Categories: general
+Url: https://github.com/apjanke/octave-validatinator
 Depends: octave (>= 4.4)
