@@ -18,7 +18,7 @@
 ##
 ## Requires that input is a vector or empty.
 ##
-## Raises an error if the input @code{x} is not a row vector and is not 0-by-0 empty.
+## Raises an error if the input @code{x} is not a vector and is not 0-by-0 empty.
 ##
 ## @code{label} is an optional input that determines how the input will be described in
 ## error messages. If not supplied, @code{inputname (1)} is used, and if that is

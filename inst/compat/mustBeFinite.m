@@ -39,6 +39,6 @@ function x = mustBeFinite (x, label)
     endif
     ix_bad = find (!tf);
     error ("%s must be finite; got Infs in %d elements: %s", ...
-      label, numel (ix_bad), mat2str (x));
+      label, numel (ix_bad), mat2str (ix_bad));
   endif
 endfunction
