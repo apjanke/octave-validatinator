@@ -43,7 +43,7 @@ Matlab compatibility functions (in `Mcode/compat`):
 New functions (in `Mcode/extend`):
   * makeItBeA(x, type)
   * mustBeA(x, type)
-  * mustBeCelsltr(x)
+  * mustBeCellstr(x)
   * mustBeCharvec(x)
   * mustBeSameSize(a, b)
   * mustBeScalar(x)
