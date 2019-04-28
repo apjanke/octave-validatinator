@@ -51,6 +51,9 @@ New functions (in `Mcode/extend`):
   * mustBeVector(x)
   * size2str(sz)
 
+None of these functions actually do much work, but they are a concise, standardized way of expressing constraints on function input arguments, object properties, and other invariants.
+Sprinkle calls to them throughout your code.
+
 ## Project
 
 The home page for Validatinator for Octave is the [Validatinator GitHub repo](https://github.com/apjanke/octave-validatinator).
