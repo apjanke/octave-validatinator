@@ -3,7 +3,7 @@ Validatinator for GNU Octave
 
 Validation functions for GNU Octave.
 
-In Matlab R2017a, Matlab introduced [Validation Functions](https://www.mathworks.com/help/matlab/matlab_oop/property-validator-functions.html) that allow you concisely express requirements for the types and values of variable and property values.
+In Matlab R2017a, Matlab introduced [Validation Functions](https://www.mathworks.com/help/matlab/matlab_oop/property-validator-functions.html) that allow you concisely express constraints for the types and values of variable and property values.
 Octave doesn’t have those yet.
 This project provides implementations of them, both some Matlab-compatible ones, and some Octave-specific extensions.
 
@@ -16,6 +16,16 @@ To install the latest Validatinator for usage or testing:
 ```
 pkg install https://github.com/apjanke/octave-validatinator/archive/master.zip`
 pkg load validatinator
+```
+
+To hack on Validatinator itself, clone the repo and add its `inst/` dir to your Octave path:
+
+```
+git clone https://github.com/apjanke/octave-validatinator
+```
+
+```
+addpath /path/to/my/cloned/octave-validatinator/inst
 ```
 
 ## Functions
