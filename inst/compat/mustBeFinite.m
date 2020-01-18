@@ -3,7 +3,7 @@
 ##
 ## Requires that input is finite.
 ##
-## Raises an error if the input @code{x} is not finite, as determined by
+## Raises an error if any element of the input @code{x} is not finite, as determined by
 ## @code{isfinite (x)}.
 ##
 ## @code{label} is an optional input that determines how the input will be described in
@@ -23,7 +23,7 @@ function x = mustBeFinite (x, label)
       label = "input";
     endif
     ix_bad = find (!tf);
-    error ("%s must be finite; got Infs in %d elements: %s", ...
+    error ("%s must be finite; got Infs in %d elements: indexes %s", ...
       label, numel (ix_bad), mat2str (ix_bad));
   endif
 endfunction
